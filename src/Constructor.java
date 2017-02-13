@@ -5,6 +5,7 @@ public class Constructor {
 	public boolean hayZetas(CharSequence cadena) {
 		for (int i = 0; i < cadena.length(); i++) {
 			if (Character.toLowerCase(cadena.charAt(i)) == 'z')
+				System.out.println("pene");
 				return true;
 		}
 		return false;
