@@ -12,6 +12,7 @@ public class Tokenizer {
 	
 	public Tokenizer() {
 		
+		
 		String nombres = Texto.dameTexto();
 		StringTokenizer tokenizer = new StringTokenizer(nombres,",");
 		while (tokenizer.hasMoreElements()) {
