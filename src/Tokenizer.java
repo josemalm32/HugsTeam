@@ -21,6 +21,7 @@ public class Tokenizer {
 					System.out.println("Coma Encotrada");
 			
 		}
+		
 	}
 	
 }
